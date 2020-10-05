@@ -1,0 +1,15 @@
+---
+- hosts: ejemplo1
+  tasks:
+  #Tarea para instalar vim
+  - name: Install packages (vim, cowsay)
+    apt:
+      name: 
+        - vim
+        - cowsay
+      state: present
+
+  - name: copy ansible cfg
+    copy:
+        dest: /tpm
+        src: ansible.cfg

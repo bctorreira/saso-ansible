@@ -1,0 +1,2 @@
+my_host ansible_ssh_host=172.19.31.71 ansible_ssh_user=administrador ansible_become=yes ansible_become_password=OSPFSFTP
+ejemplo1 ansible_ssh_host=172.19.31.75 ansible_ssh_user=user ansible_become=yes

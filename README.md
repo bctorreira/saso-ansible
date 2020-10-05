@@ -1,2 +1,2 @@
-# saso
-Repositorio de proyectos de la clase de SASO
+# SASO - Ansible
+Repositorio de proyectos Ansible de la clase de SASO
